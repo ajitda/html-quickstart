@@ -1,0 +1,49 @@
+/*header style */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+.navbar-brand{
+    height: 50px;
+}
+.navbar-brand img{
+    height: 50px;
+}
+.navbar-nav .nav-link{
+    font-weight: bold;
+}
+li.nav-item .nav-link {
+    font-size: 1.2rem;
+}
+li.nav-item .nav-link.pucon{
+    color: #b97509;
+}
+
+li.nav-item .nav-link img{
+    height: 1.3rem;
+}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    position: absolute;
+    width: 100%;
+    top: 1rem;
+}
+.bg-dark {
+    background-color: rgba(52, 58, 64, 0.7098039215686275)!important;
+}
+/*--slider--*/
+.slider-bg.slide1 {
+    background: url(../images/slider.png);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-text {
+    padding-top: 13rem;
+    position: relative;
+    z-index: 1;
+    padding-left: 10rem;
+    /* background: #fff; */
+}
