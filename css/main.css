@@ -1,7 +1,15 @@
 /*header style */
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400');
+html{
+    height: 100%;
+}
 body{
     font-family: 'PT Sans', sans-serif;
+    height: 100%;
+}
+.no-margin{
+    margin:0;
 }
 .navbar-brand{
     height: 50px;
@@ -30,7 +38,18 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
 .bg-dark {
     background-color: rgba(52, 58, 64, 0.7098039215686275)!important;
 }
+header span.badge.badge-danger {
+    position: absolute;
+    top: 15px;
+    right: 13px;
+    border-radius: 10px;
+    color: #fff;
+}
+
 /*--slider--*/
+.slider{
+    height: 100%;
+}
 .slider-bg.slide1 {
     background: url(../images/slider.png);
     height: 100%;
@@ -40,10 +59,251 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.slider-text-1 {
+    background-color: #fff;
+    padding: 10px 20px;
+}
 .slider-text {
-    padding-top: 13rem;
+    height: 40rem;
+}
+.slider-text-1 h1{
+    color:#634212;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.slider-text-2 {
+    background-color: #654e50;
+    text-align: right;
+    margin-left: 150px;
+    padding: 20px 70px 15px 30px;
+}
+.slider-text-2 p {
+    font-size: 1.3rem;
+    color: #fff;
+    line-height: 12px;
+}
+.slider-text-2 p .price{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.slider-text-2:after {
+    content: ">";
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    right: 26px;
+    top: 95px;
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 200;
+    z-index: 99999;
+}
+.single-promo{
+    padding:20px 0;
+}
+.col-sm-6.single-promo.left-promo {
+    background-color: #b8d9e3;
+}
+.single-promo.col-sm-6 {
+    background: #b1e1b1;
+}
+.single-promo-img{
+    text-align: center;
+}
+.single-promo h1{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+.section-header {
+    text-align: center;
+    padding: 50px 0 10px;
+}
+.section-header h1{
+    color: #f39818;
+    font-weight: bold;
+}
+.section-header p{
+    font-size: 20px;
+}
+
+.single-feature {
+    width: 20%;
+    float: left;
+}
+.single-feature-inner {
+    padding: 12px;
+}
+.single-feature-inner .single-feature-image img{
+    width: 100%;
+}
+.single-feature-inner h2 {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 0 0 10px;
+}
+.single-feature p.rating {
+    padding-left: 20px;
+}
+.single-feature-inner p {
+    font-size: 0.84rem;
+    text-align: justify;
+}
+.single-feature-inner p a{
+    color: #000;
+}
+.single-feature-inner p a .price{
+    font-weight: bold;
+    color: #f39818;
+}
+.sell-all a {
+    font-size: 17px;
+    font-weight: bold;
+    color: #000;
+}
+.sell-all a i{
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+#place{
+    margin-top: 50px;
+}
+
+.single-place.full-icon-1{
+    background: #edf9fb;
+}
+.single-place.full-icon-2{
+    background: #ffeaf5;
+}
+.single-place.full-icon-3{
+    background: #fcf3ed;
+}
+
+.single-place.full-icon-1 .icon-text h2{
+    color:#48bab2;
+    font-weight: bold;
+}
+.single-place.full-icon-2 .icon-text h2{
+    color:#c74783;
+    font-weight: bold;
+}
+.single-place.full-icon-3 .icon-text h2{
+    color:#bca956;
+    font-weight: bold;
+}
+
+.single-place {
+    padding: 20px 10px;
+}
+
+.single-place img{
+    float: left;
+    margin-right: 15px;
+   
+}
+.single-place h2 {
+    font-size: 1.7rem;
+}
+.single-place h3 {
+    font-size: 1.3rem;
+}
+.single-place h4{
+    
+    font-weight: bold;
+    
+}
+.single-place p{
+    line-height: 1;
+   
+}
+
+.single-place .doller{
+    font-weight: bold;
+   
+}
+.row.travelling-places {
+    margin: 50px 0;
+}
+
+/*Viagam Section*/
+
+#viagem{
+    background: #427ce6;
+    padding: 20px;
+}
+
+.viagem-left .text-section{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.viagem-left{
+    margin-top: 35px;
+}
+
+.viagem-left .text-section h2{
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.viagem-right{
+    background: url(../images/viagem.png);
+}
+.viagem-right img {
+    width: 100%;
+}
+
+
+/* Footer Section*/
+
+#footer-area {
+    background: #3d3d3d;
     position: relative;
-    z-index: 1;
-    padding-left: 10rem;
-    /* background: #fff; */
+    color: #ffffff;
+    padding-top: 30px;
+
+}
+
+.single-footer{
+    padding: 20px;
+}
+
+.social-icon {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #000;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-right:5px;
+    display: inline-block;
+}
+.social-icon .fa-facebook {
+    padding: 0 3px;
+}
+.input-form{
+    background: #787878;
+    border-color: #787878;
+}
+button.ok-btn {
+    position: absolute;
+    right: 1rem;
+    background: green;
+    border: 0;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 21px;
+    top: 14.6rem;
 }
