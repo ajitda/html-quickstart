@@ -24,7 +24,7 @@ li.nav-item .nav-link {
     font-size: 1.2rem;
 }
 li.nav-item .nav-link.pucon{
-    color: #b97509;
+    color: #dc8700;
 }
 
 li.nav-item .nav-link img{
@@ -36,16 +36,22 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
     top: 1rem;
 }
 .bg-dark {
-    background-color: rgba(52, 58, 64, 0.7098039215686275)!important;
+    background-color: rgba(52, 58, 64, 0.8)!important;
 }
 header span.badge.badge-danger {
     position: absolute;
-    top: 15px;
-    right: 13px;
+    top: 3px;
+    left: 17px;
     border-radius: 10px;
     color: #fff;
 }
-
+a.cart.nav-link {
+    position: relative;
+}
+.right-nav .nav-item .nav-link {
+    font-size: 18px;
+    font-weight: 200;
+}
 /*--slider--*/
 .slider{
     height: 100%;
@@ -110,11 +116,14 @@ header span.badge.badge-danger {
     text-align: center;
 }
 .single-promo h1{
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 900;
     text-align: center;
 }
-
+.single-promo p {
+    font-size: 20px;
+    text-align: center;
+}
 
 .section-header {
     text-align: center;
@@ -139,7 +148,7 @@ header span.badge.badge-danger {
     width: 100%;
 }
 .single-feature-inner h2 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     padding: 10px 0 0 10px;
 }
@@ -203,7 +212,11 @@ header span.badge.badge-danger {
 .single-place {
     padding: 20px 10px;
 }
-
+.single-place.full-icon-1 img, .single-place.full-icon-2 img, .single-place.full-icon-3 img{
+    margin-left: 15px;
+    width: 50px;
+    height: auto;
+}
 .single-place img{
     float: left;
     margin-right: 15px;
@@ -215,10 +228,9 @@ header span.badge.badge-danger {
 .single-place h3 {
     font-size: 1.3rem;
 }
-.single-place h4{
-    
+.single-place h4 {
     font-weight: bold;
-    
+    font-size: 20px;
 }
 .single-place p{
     line-height: 1;
@@ -232,11 +244,13 @@ header span.badge.badge-danger {
 .row.travelling-places {
     margin: 50px 0;
 }
-
+.place-text img {
+    margin-top: 10px;
+}
 /*Viagam Section*/
 
 #viagem{
-    background: #427ce6;
+    background: #0993e1;
     padding: 20px;
 }
 
@@ -255,10 +269,14 @@ header span.badge.badge-danger {
     padding: 0px;
     margin: 0px;
     font-weight: bold;
+    font-size:  30px;
+}
+.viagem-left .text-section p {
+    font-size: 16px;
 }
 
-.viagem-right{
-    background: url(../images/viagem.png);
+.viagem-right {
+    
 }
 .viagem-right img {
     width: 100%;
@@ -272,16 +290,15 @@ header span.badge.badge-danger {
     position: relative;
     color: #ffffff;
     padding-top: 30px;
-
+    font-size: 14px;
 }
 
 .single-footer{
     padding: 20px;
 }
-
 .social-icon {
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 5px 10px;
     border-radius: 50%;
     background: #ffffff;
     color: #000;
@@ -295,15 +312,23 @@ header span.badge.badge-danger {
 }
 .input-form{
     background: #787878;
-    border-color: #787878;
+    border-color: transparent;
+    width: 100%;
 }
 button.ok-btn {
     position: absolute;
-    right: 1rem;
+    right: -33px;
     background: green;
     border: 0;
     color: #fff;
-    padding: 5px 15px;
-    font-size: 21px;
-    top: 14.6rem;
+    padding: 5px 17px;
+    font-size: 16px;
+    top: 14rem;
+}
+.single-footer h4 {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.single-footer p {
+    font-size: 14px;
 }

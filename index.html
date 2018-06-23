@@ -29,7 +29,6 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Action</a>
                 <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a>
                 </div>
             </li>
@@ -42,7 +41,7 @@
                     <a class="nav-link" href="#">Informacoes Uteis<span class="sr-only">(current)</span></a>
                   </li>
           </ul>
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto right-nav">
             <li class="nav-item active">
               <a class="nav-link" href="#"><img src="images/flag.png" alt=""> BRL $<span class="sr-only">(current)</span></a>
             </li>
@@ -50,7 +49,7 @@
                     <a class="nav-link" href="#">Iniciar Sessao<span class="sr-only">(current)</span></a>
                   </li>
         <li class="nav-item active">
-                <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i><span class="badge badge-danger">0</span></a>
+                <a class="nav-link cart" href="#"><i class="fa fa-shopping-cart"></i><span class="badge badge-danger">0</span></a>
             </li>
           </ul>
         </div>
@@ -62,7 +61,8 @@
     <div class="">
         <div class="container">
             <div class="row align-items-center slider-text">
-                <div class="col-sm-9 col-md-7 col-lg-5 col-sm-offset-1">
+                <div class="col-1"></div>
+                <div class="col-11 col-sm-10 col-md-8 col-lg-6 col-xl-5">
                     <div class="slider-text-1">
                         <h1>Termas Geometricas</h1>
                         <p><span><img src="images/google.png" alt=""> </span> <span> <img src="images/ionic.png" alt=""></span></p>
@@ -342,10 +342,11 @@
       </section>
 
       <section id="viagem">
+        <div class="viagem-inner">
         <div class="container">
           <div class="row">
             
-            <div class="col-md-6">
+            <div class="col-md-5">
               <div class="viagem-left">
                 <div class="text-section">
                   <h2>Mais De 40 Atividades</h2>
@@ -362,17 +363,13 @@
               </div>
             </div>
 
-            <div class="col-md-6">
-              <div class="container">
-                <div class="row">
-                  <div class="viagem-right">
-                    <img src="images/viagem.png" alt="">
-                    
-                  </div>
-                </div>
+            <div class="col-md-7">
+              <div class="viagem-right">
+                <img src="images/viagem.png" class="img-responsive" alt="">
               </div>
             </div>
           </div>
+        </div>
         </div>
       </section>
 
@@ -381,8 +378,8 @@
           <div class="row">
             <div class="single-footer col-md-3 col-sm-6">
               <h4>Aventuras Chile</h4>
-              <p>Quein somos</p>
-              <p>Contacto</p>
+              <p>Quein somos <br>
+              Contacto</p>
               <br>
               <br>
               <p>Hecho con &nbsp;<i class="fa fa-heart" style="font-size: 20px"></i></p>
@@ -404,28 +401,28 @@
                 <h4>Contactese con nosotros</h4>
               <form>
                 <div class="row form-group">
-                    <div class="col-3">
+                    <div class="col-2">
                         Name
                     </div>
-                    <div class="col-9">
+                    <div class="col-10">
                         <input class="input-form" type="text">
                     </div>
                 </div>
 
                 <div class="row form-group">
-                    <div class="col-3">
+                    <div class="col-2">
                             Email
                     </div>
-                    <div class="col-9">
+                    <div class="col-10">
                             <input class="input-form" type="email">
                     </div>
                 </div>
                 <div class="row form-group">
-                    <div class="col-3">
+                    <div class="col-2">
                             Mensaje
                     </div>
-                    <div class="col-9">
-                            <textarea class="input-form" type="text" rows="5"> </textarea>
+                    <div class="col-10">
+                            <textarea class="input-form" rows="5"> </textarea>
                     </div>
                 </div>
                 <button class="ok-btn" type="submit">Ok</button>
